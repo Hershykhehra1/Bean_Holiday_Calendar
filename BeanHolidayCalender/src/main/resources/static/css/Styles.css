@@ -1,0 +1,28 @@
+body {
+	background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+	min-height: 100vh;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: lightblue;
+}
+.error-message {
+    color: red;
+}
